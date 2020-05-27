@@ -1,0 +1,46 @@
+.myLeft li div.select{ border: 2px dashed #aaa;}
+.myLeft li div.beforeSelect { border-top:2px solid #61dafb;position: relative;border-top-width:2px;}
+.myLeft li div.afterSelect { border-bottom: 2px solid #ff0036;position: relative;border-bottom-width: 2px;}
+.myLeft li,li div{line-height: 20px;z-index: 1;border: 2px solid transparent;list-style: none;padding: 0;margin: 0;
+  background-position: left top 6px;background-size: 10px auto;background-repeat: no-repeat;
+  padding-left: 14px;position: relative;
+}
+.myLeft li div {padding-left: 0;}
+.myLeft li div.nowSelect{
+  color: #fff;background: rgb(0, 97, 204);
+}
+.myLeft  ul{padding-left:0;position: relative;}
+.myLeft  li.open{
+  background-image: url(../asset/icon1.png);
+}
+.myLeft  li.close{
+  height: 28px;overflow: hidden;
+  background-image: url(../asset/icon2.png);
+}
+.myLeftWrap{display: flex;align-items: center;}
+.myLeft .iconfont{font-size: 15px;margin: 0 5px;}
+.myLeft .icon-page{
+    color: #0f79c5;
+}
+.myLeft .leftWrap .icon-delete{display: none;margin-left: 10px;}
+.myLeft .leftWrap .icon-close{display: none;}
+.myLeft .leftWrap:hover > .icon-delete{display: inline;color: #ccc;}
+.myLeft .leftWrap:hover > .icon-close{display: inline;color: #ccc;}
+
+/* .myLeft  li::after{position: absolute;width:8px;height: 1px;background: #eee;top: 0;left: 0;
+    position: absolute;
+    width: 18px;
+    height: 1px;
+    background: #ccc;
+    top: 12px;
+    left: -20px;
+    content: "";
+}
+.myLeft  ul::after{
+    width: 1px;
+    height: 100%;
+    background: #ccc;
+    top: 12px;
+    left: -20px;
+    content: "";
+} */

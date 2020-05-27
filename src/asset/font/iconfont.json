@@ -1,0 +1,23 @@
+{
+  "id": "1041997",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "554464",
+      "name": "展开",
+      "font_class": "iconset0430",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "1425910",
+      "name": "收起",
+      "font_class": "shouqi",
+      "unicode": "e840",
+      "unicode_decimal": 59456
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+
+@import '~antd/dist/antd.css';
+ul,li{list-style: none;padding: 0;margin: 0;}
+.myWrap{display: flex;flex: 1;}
+.myLeft{width: 200px;overflow: scroll;height: 100%;border-left: 1px solid #eee;box-sizing: border-box;padding: 10px;
+  height: 100%;overflow: auto;
+}
+.myRight{width: 300px;height: 100%;border-left: 1px solid #eee;padding: 10px;
+}
+.main{flex: 1;border-left: 1px solid #eee;}
+.ideIframe{border: none;width: 100%;height: 100%;}
+.my-button{
+  height: 32px;display: flex;
+  align-items: center;background: #ff0036;
+  color: #fff;
+  justify-content: center;
+  width:100px;
+}
+.my-button:hover{background:#c10d33;}
+
+.myTabs{
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  display: flex;flex-direction: column;
+}
+.myTabs .tabsItem{width: 100%;display: flex;
+  font-size: 24px;margin: 2px 0;
+  align-items: center;justify-content: center;height: 40px;}
+.myTabs .tabsItem:hover{background: #c8f3fd;}
+.myTabs .tabsItem.itemSelect{
+  background: #9edae8;
+}
+.allBg{display: flex;flex-direction: column;height: 100vh;}
+.hd{height:60;background: #f5f5f5;}

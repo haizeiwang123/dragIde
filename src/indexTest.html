@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body,html{height: 100%;width: 100%;margin: 0;padding: 0;}
+  #bfc{height: 100%;overflow: auto;}
+  .div1{height: 200px;width: 200px;margin: 40px;background: #ff3600;}
+  .div2{
+    background:blue ;
+    height: 200px;
+  }
+</style>
+<body>
+  <div class="bfc" id="bfc">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div><div class="div2"></div>
+    <div class="div1"></div>
+  </div>
+    <script>
+        document.getElementById("bfc").onscroll=function(e){
+          console.log(e)
+        }
+        document.getElementById("bfc").scroll(0,0)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.monacoView{position: relative;}
+.monacoViewFixed{position: fixed;top: 0;left: 0;width: 100%;z-index: 9;}
+.monacoViewIcon{position: absolute;right: 0;top: 0;color: #fff;z-index: 10;font-size: 20px;}
+
+.fixedButon{
+    position: fixed;right: 0;bottom: 0;z-index: 10;height: 40px;right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.eventWrap{margin-bottom: 20px;display: flex;}
+.textButton{
+    color:#1890ff ;
+    cursor: pointer;
+}
+.textButton:hover{
+    color:#1565af ;
+}
+.eventWrap .icon-delete{
+    margin-left: auto;
+}
+.propDiv{display: flex;flex-direction: row;align-items: center;margin-bottom: 12px;}
+.propDiv .propMain{flex: 1;}
+.propDiv .propText{width: 70px;}
+.propDiv .propButton{margin-left: auto;}
